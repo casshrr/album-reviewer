@@ -36,7 +36,7 @@ Frontend → Routes → Controllers → Services → Repositories → PostgreSQL
 
 Main interface used to manage artists, albums, and reviews.
 
-<img width="1280" height="803" alt="PHOTO-2026-06-08-15-45-17" src="https://github.com/user-attachments/assets/20f746bd-d10c-4d50-b102-c46d4c55899b" />
+<img width="1280" height="803" alt="PHOTO-2026-06-08-15-45-17" src="https://github.com/user-attachments/assets/bff1a289-20f8-42d5-8c3e-9496ad4366ed" />
 
 ### PostgreSQL Database Schema
 
