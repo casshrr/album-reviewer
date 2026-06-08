@@ -6,17 +6,16 @@ Full-stack album review platform built with Node.js, Express, PostgreSQL, REST A
 
 Album Reviewer is a web application that allows users to create artists, add albums, and write reviews. The project was originally built using JSON-based storage and later migrated to PostgreSQL to improve scalability and data management.
 
-This project was developed to gain practical experience with backend development, REST API design, relational databases, automated testing, and cloud deployment.
+The application follows a layered backend architecture and includes automated testing and cloud deployment.
 
-## Features
+## Project Highlights
 
-* Create, retrieve, and delete artists
-* Create, retrieve, and delete albums
-* Create, update, and delete reviews
-* PostgreSQL-backed relational database
-* Validation of user input and business rules
-* Automated testing using Jest and Supertest
-* Cloud deployment using Render
+* Designed REST APIs using Express.js
+* Migrated data storage from JSON files to PostgreSQL
+* Implemented layered architecture (Routes → Controllers → Services → Repositories)
+* Added automated testing with Jest and Supertest
+* Deployed the application on Render
+* Designed a relational database schema with foreign key constraints
 
 ## Tech Stack
 
@@ -29,17 +28,51 @@ This project was developed to gain practical experience with backend development
 
 ## Architecture
 
-Frontend → Express Routes → Controllers → Services → Repositories → PostgreSQL Database
+Frontend → Routes → Controllers → Services → Repositories → PostgreSQL Database
 
-## Skills Demonstrated
+## Screenshots
+
+### Application Interface
+
+Main interface used to manage artists, albums, and reviews.
+
+<img width="1280" height="803" alt="PHOTO-2026-06-08-15-45-17" src="https://github.com/user-attachments/assets/20f746bd-d10c-4d50-b102-c46d4c55899b" />
+
+### PostgreSQL Database Schema
+
+Database schema containing artists, albums, and reviews tables.
+
+<img width="956" height="510" alt="PHOTO-2026-06-08-15-45-31" src="https://github.com/user-attachments/assets/331ccd74-fc4c-41dc-99fa-7ada99326df4" />
+
+### Deployment on Render
+
+Application successfully deployed and running on Render.
+
+<img width="1280" height="856" alt="PHOTO-2026-06-08-15-44-55" src="https://github.com/user-attachments/assets/68318174-b2e3-464f-abad-29ddedd8479e" />
+
+## What I Learned
+
+This project helped me gain practical experience with:
 
 * REST API development
 * Relational database design
-* Backend architecture and layering
+* Backend architecture and separation of concerns
 * Automated testing
 * Cloud deployment
-* Input validation and error handling
+* Validation and error handling
+* Data migration from JSON storage to PostgreSQL
 
+## Running Locally
+
+```bash
+npm install
+npm start
+```
+
+## API Documentation
+
+
+The following sections describe all available endpoints, request formats, validation rules, and response structures.
 
 **Base URL (local):** `http://localhost:3000`  
 All endpoints return JSON.  
