@@ -1,4 +1,45 @@
-# Music Reviewer — REST API
+# Album Reviewer
+
+Full-stack album review platform built with Node.js, Express, PostgreSQL, REST APIs, Jest testing, and Render deployment.
+
+## Overview
+
+Album Reviewer is a web application that allows users to create artists, add albums, and write reviews. The project was originally built using JSON-based storage and later migrated to PostgreSQL to improve scalability and data management.
+
+This project was developed to gain practical experience with backend development, REST API design, relational databases, automated testing, and cloud deployment.
+
+## Features
+
+* Create, retrieve, and delete artists
+* Create, retrieve, and delete albums
+* Create, update, and delete reviews
+* PostgreSQL-backed relational database
+* Validation of user input and business rules
+* Automated testing using Jest and Supertest
+* Cloud deployment using Render
+
+## Tech Stack
+
+* Node.js
+* Express.js
+* PostgreSQL
+* Jest
+* Supertest
+* Render
+
+## Architecture
+
+Frontend → Express Routes → Controllers → Services → Repositories → PostgreSQL Database
+
+## Skills Demonstrated
+
+* REST API development
+* Relational database design
+* Backend architecture and layering
+* Automated testing
+* Cloud deployment
+* Input validation and error handling
+
 
 **Base URL (local):** `http://localhost:3000`  
 All endpoints return JSON.  
